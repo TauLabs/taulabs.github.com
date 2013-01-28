@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,9 +52,9 @@
      inkscape:window-height="876"
      id="namedview3041"
      showgrid="false"
-     inkscape:zoom="1.665993"
-     inkscape:cx="215.78159"
-     inkscape:cy="216.77406"
+     inkscape:zoom="1.675501"
+     inkscape:cx="215.77718"
+     inkscape:cy="217.54687"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="0"
@@ -75,40 +75,43 @@
        originx="-159.76209px"
        originy="-57.95602px" />
   </sodipodi:namedview>
-  <text
-     xml:space="preserve"
-     style="font-size:11.68831158px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Lello"
-     x="-1792.3226"
-     y="-1029.5497"
-     id="text2171"><tspan
-       sodipodi:role="line"
-       id="tspan2173"
+  <g
+     id="g3765">
+    <text
+       id="text2171"
+       y="-1029.5497"
        x="-1792.3226"
-       y="-1029.5497" /></text>
-  <path
-     style="fill:#f3f1ad;fill-opacity:1;stroke:#000000;stroke-width:2.99462533;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 375.66354,433.22836 c 30.1403,0 54.40488,-28.57208 54.40488,-64.06297 l 0,-303.59951 c 0,-35.490883 -24.26458,-64.0629658 -54.40488,-64.0629658 l -319.729131,0 c -30.1403,0 -54.4048729,28.5720828 -54.4048729,64.0629658 0.073812,122.67301 -0.2621326,245.3462 0.2898762,368.01823 C 126.43135,432.81249 251.04939,433.22836 375.66354,433.22836 z"
-     id="rect3935"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cssssccc" />
-  <text
-     xml:space="preserve"
-     style="font-size:848.30224609px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:81.99999928%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-     x="23.867868"
-     y="178.05128"
-     id="text3851"
-     sodipodi:linespacing="81.999999%"><tspan
-       sodipodi:role="line"
-       x="23.867868"
+       style="font-size:11.68831158px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Lello"
+       xml:space="preserve"><tspan
+         y="-1029.5497"
+         x="-1792.3226"
+         id="tspan2173"
+         sodipodi:role="line" /></text>
+    <path
+       sodipodi:nodetypes="cssssccc"
+       inkscape:connector-curvature="0"
+       id="rect3935"
+       d="m 375.66354,433.22836 c 30.1403,0 54.40488,-28.57208 54.40488,-64.06297 l 0,-303.59951 c 0,-35.490883 -24.26458,-64.0629658 -54.40488,-64.0629658 l -319.729131,0 c -30.1403,0 -54.4048729,28.5720828 -54.4048729,64.0629658 0.073812,122.67301 -0.2621326,245.3462 0.2898762,368.01823 C 126.43135,432.81249 251.04939,433.22836 375.66354,433.22836 z"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       sodipodi:linespacing="81.999999%"
+       id="text3851"
        y="178.05128"
-       style="font-size:204.73939514px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:81.99999928%;letter-spacing:4.46000004px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
-       id="tspan3865"><tspan
-   style="font-size:332.70147705px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:81.99999928%;letter-spacing:4.46000004px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0d7d66;fill-opacity:1;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
-   id="tspan3004"
-   dx="0">τ</tspan>au</tspan><tspan
-       sodipodi:role="line"
        x="23.867868"
-       y="403.37173"
-       style="font-size:204.73939514px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
-       id="tspan3871">Labs</tspan></text>
+       style="font-size:848.30224609px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:81.99999928%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       xml:space="preserve"><tspan
+         id="tspan3865"
+         style="font-size:204.73939514px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:81.99999928%;letter-spacing:4.46000004px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
+         y="178.05128"
+         x="23.867868"
+         sodipodi:role="line"><tspan
+   dx="0"
+   id="tspan3004"
+   style="font-size:332.70147704999999405px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:81.99999927999998306%;letter-spacing:4.46000003999999972px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:FreeSerif;-inkscape-font-specification:FreeSerif">τ</tspan>au</tspan><tspan
+         id="tspan3871"
+         style="font-size:204.73939514px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
+         y="403.37173"
+         x="23.867868"
+         sodipodi:role="line">Labs</tspan></text>
+  </g>
 </svg>
