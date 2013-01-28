@@ -14,10 +14,7 @@
    id="svg3773"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="taulabs-favicon.svg"
-   inkscape:export-filename="/home/ssheldon/taulabs/taulabs.github.com/images/taulabs-favicon.png"
-   inkscape:export-xdpi="2.8125"
-   inkscape:export-ydpi="2.8125">
+   sodipodi:docname="taulabs-favicon.svg">
   <defs
      id="defs3775" />
   <sodipodi:namedview
@@ -70,8 +67,6 @@
          id="tspan3783"
          x="34.472343"
          y="497.02722"
-         style="font-size:958.78436279px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0d7d66;fill-opacity:1;font-family:FreeSerif;-inkscape-font-specification:FreeSerif">τ<tspan
-   id="tspan3789"
-   style="font-size:958.78436279px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0d7d66;fill-opacity:1;font-family:OpenSymbol;-inkscape-font-specification:OpenSymbol" /></tspan></text>
+         style="font-size:958.78436279px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#0d7d66;fill-opacity:1;font-family:FreeSerif;-inkscape-font-specification:FreeSerif">τ</tspan></text>
   </g>
 </svg>
