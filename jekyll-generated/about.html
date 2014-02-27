@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>  Tau Labs </title>
+  <link rel="stylesheet" href="/jekyll-generated/css/styles.css" />
+</head>
+<body>
+ 
+  <div id="main">
+ 
+    <header>
+      <h1>  Tau Labs </h1>
+    <header>
+ 
+    <nav role="navigation">
+      <ul>
+        <li><a href="/jekyll-generated">Home</a></li>
+        <li><a href="http://wiki.taulabs.org/">Wiki</a></li>
+        <li><a href="https://github.com/TauLabs/TauLabs/releases">Get Tau Labs</a></li>
+        <li><a href="webchat.html">Webchat</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <hl/>
+ 
+    <br/>
+
+    <section class="content">
+
+<h1>Who are we</h1>
+A group of volunteers interested in UAVs, programming, control systems, and much much more. A number of the developers of Tau Labs helped develop Open Pilot before forking to Tau Labs to have a greater degree of freedom.
+
+<h1>Goals</h1>
+The goal of Tau Labs is to focus on writing high quality open source code for autopilots that can easily provide the basis for research projects or further development by anyone.  The project focuses on high quality code, robust testing, and ease of use. Our target audience is professionals, researchers, and students, but we want to make those more advanced techniques easy and accessible for anyone.
+
+<br>
+
+By “research”, we mean not only universities or institutions focused on research on UAVs, but any group who might have use for UAVs for their research purpose. Examples include UAVs used for agricultural surveys, air quality logging. By “students” we mean aiming the use of our project in the classroom, especially thanks to the availability of an entry-level reference platform (see below).
+
+<br/><br/>
+
+The Tau Labs software is released under the GPL and will be treated in that spirit.  Porting the software to new boards is encouraged and fun.  The project will also maintain a set of reference platforms which the code will be more frequently tested against and will be expected to perform optimally.  As it was put, these will receive “A+ development support.”  As Lilvinz put it, with open source you can only give and create and we want to continue doing that.
+
+
+<h1>Reference Platforms and Inclusion into project</h1>
+The current reference platforms are the Freedom for higher end applications and the ST F3Discovery board as an easily accessible platform.  The Freedom has been designed by the project and features a gumstix Overo header as well as a full complement of sensors.  The F3discovery board is manufactured by ST and costs less than 25$.
+
+<br/><br/>
+
+A second tier of reference platforms that would be ideal are reference applications - a complete flying setup including board and airframe for certain applications.  This is ideal for supporting researchers and students who might want to focus goals beyond just getting in the air.
+
+<br/><br/>
+
+As described in our goals, porting the software to other boards is encouraged.  We liken this to the Android model where Google produces a reference platform and encourages a rich ecosystem of extensions and modifications.  The conclusion of the meeting was to only maintain the reference platforms in the core source tree and allow other targets to live in their own forks so that the appropriate maintainers can ensure compatibility with any changes applied to the reference platform.  Subsequent discussion implied we might allow targets in whose maintainers are active and responsive. Those targets will be considered as ‘contributions’, our reference platforms remaining the main focus for development and especially testing.
+<br/><br/>
+We will welcome patches back into the core architecture (e.g. PiOS) to support other targets if they are implemented cleanly and improve the code base.  Also new drivers will be welcomed as this will improve the power of PiOS for everyone.
+<br/>
+<h1>Financing and Infastructure</h1>
+The first goal is to keep running costs low.  That means using free hosting services when possible.  We will use the GitHub wiki and become proficient in it to see if that is really a limitation.  There have been some offers to donate server bandwidth and Gussy and PT_Dreamer will follow up on that to see about setting up a forum. Edouard volunteered to provide backup storage.
+
+<br/><br/>
+
+The second goal is to avoid situations where people acquire debt which affects the project decisions.  What finances the project does have to deal with will be run through the non-profit that Gussy and CheBuzz have already established.  In addition we will try and merge that board of directors and the various committees into the project decision making process.  We discussed if the project needs funds that all of the developers who would like to can contribute to a fund managed by the non-profit.  Hardware provided to the developers should not be given away which creates implied obligations, but should be sold at cost.
+
+<h1>Hardware manufacturing</h1>
+The project will not be responsible for making hardware directly.  The reference platforms might already be available (e.g. F3 discovery) or will be release CC-BY-SA.  We also won’t stigmatize any businesses that makes the design and sells it - keeping in mind the reference platform cannot be expected to perform in a specific way that is suited to a particular application.  Anyone manufacturing can contribute profits back to the non-profit and this will be transparently documented in order to say “supports the Project”. By definition, the non-profit organization will publish regular accounts on its use of funds.
+
+<br/><br/>
+
+Boards from the OpenPilot project may be supported if a maintainer is found, otherwise they may be migrated to a “contributions” branch.
+
+<br/><br/>
+
+A first example for this model is Lilvinz, who has produced another board called “Quanton” whose files already openly available.  The board will be compatible with our code and possibly merged into the main codeline while it is maintained, but will be separate from the ‘reference’ platforms.  He may also choose to maintain it as a separate github fork if that makes development easier.  He indicated this would not hinder his ability to push core improvements back upstream.
+
+<br/><br/>
+
+In terms of support, for forks and new boards there are no expectations of support from our project.  Essentially if you build it, you support it.  The project will provide support for the reference platforms and will document these well.  However the goal at the moment is not to create a large and extensive user community with a large support load, but a small and focused developer group.
+
+</section>
+
+
+ 
+    <footer>
+      <p>&copy; Tau Labs, 2014 </p>
+    </footer>
+ 
+  </div>
+</body>
+</html>
