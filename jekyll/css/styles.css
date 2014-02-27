@@ -29,7 +29,7 @@ header {
   overflow: hidden;
 }
 h1 {
-  margin: 0;
+  margin: 10;
 }
  
 nav ul, ul.entries {
@@ -62,7 +62,7 @@ ul.entries li h3 {
   font-size: 2em;
 }
 ul.entries a {
-  color: #ececec;
+  color: #1c1c1c;
 }
 ul.entries a:hover {
   color: #fff;
