@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Tau Labs </title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+ 
+  <div id="main">
+ 
+    <header>
+      <h1>  Tau Labs </h1>
+    <header>
+ 
+    <nav role="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="http://wiki.taulabs.org/">Wiki</a></li>
+        <li><a href="https://github.com/TauLabs/TauLabs/releases">Get Tau Labs</a></li>
+        <li><a href="webchat.html">Webchat</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+ 
+    <br/>
+
+    {{ content }}
+ 
+    <footer>
+      <p>&copy; Tau Labs, 2014 </p>
+    </footer>
+ 
+  </div>
+</body>
+</html>
