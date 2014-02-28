@@ -3,18 +3,13 @@
 <head>
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} Tau Labs </title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
 </head>
 <body>
  
-  <div id="main">
- 
-    <header>
-      <h1>  Tau Labs </h1>
-    <header>
- 
-    <nav role="navigation">
-      <ul>
+<div class="pure-menu pure-menu-open pure-menu-horizontal">
+    <a href="#" class="pure-menu-heading">{{ site.name }}</a>
+    <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="features.html">Features</a></li>
         <li><a href="http://wiki.taulabs.org/">Wiki</a></li>
@@ -23,8 +18,14 @@
         <li><a href="videos.html">Videos</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
-    </nav>
+</div>
 
+  <div id="main">
+ 
+    <header>
+      <h1>  Tau Labs </h1>
+    <header>
+ 
     <hl/>
  
     <br/>
