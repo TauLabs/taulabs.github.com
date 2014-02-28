@@ -2,12 +2,21 @@
 <html>
 <head>
   <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> {% if page.title %} {{ page.title }} | {% endif %} Tau Labs </title>
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+  <link rel="stylesheet" href="css/side-menu.css">
 </head>
 <body>
  
-<div class="pure-menu pure-menu-open pure-menu-horizontal">
+<div id="layout">
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+<div id="menu">
+<div class="pure-menu pure-menu-open">
     <a href="#" class="pure-menu-heading">{{ site.name }}</a>
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -19,12 +28,9 @@
         <li><a href="about.html">About</a></li>
       </ul>
 </div>
+</div>
 
   <div id="main">
- 
-    <header>
-      <h1>  Tau Labs </h1>
-    <header>
  
     <hl/>
  
@@ -37,5 +43,7 @@
     </footer>
  
   </div>
+</div>
+
 </body>
 </html>
