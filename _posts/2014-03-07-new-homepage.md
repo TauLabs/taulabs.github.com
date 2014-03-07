@@ -1,5 +1,6 @@
 ---
 layout: posts
+image: /img/homepage.png
 title: New Homepage 
 ---
 
