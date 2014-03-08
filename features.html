@@ -3,21 +3,44 @@ layout: default
 ---
 
 <section class="content">
- <ul>
-  <li>Great stabilized flight performance</li>
-  <li>Horizon mode for great FPV feeling</li>
+  <h1>Tau Labs Features</h1>
+  Here is a subset of some of the many features in the Tau Labs code.
+
+  <h2>Great stabilized flight performance</h2>
+      Our code has a long standing reputation of producing tight, locked in flight. First with CC3D and now with a much wider ranger of targets. Default settings should be good to fly and get started, and after that try out autotuning or TxPID tuning to refine things.
+
+  <h2>Horizon mode for great FPV feeling</h2>
       <iframe src="//player.vimeo.com/video/79046689" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  <li>Altitude hold</li>
+      <br/>
+      Horizon mode allows you to have the locked in feeling of attitude mode, but also the flexible control of rate mode. As you move the stick to the extents the system slowly transitions from one to the other. This is a great mode for FPV if you want to pull of some great flips. <a href="http://buildandcrash.blogspot.com/2013/11/taulabs-gets-multiwii-horizon-mode.html">See this blog writeup for more detail</a> or the <a href="https://github.com/TauLabs/TauLabs/wiki/Flightmode-Settings#wiki-horizon">wiki page on flight modes</a>.
+
+  <h2>Altitude hold</h2>
       <iframe src="//player.vimeo.com/video/88439963" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  <li>RTH and PH support</li>
+      <br/>
+      Full state control allows very locked in control for aggressive cilmbing or diving with stable hold in between. This mode uses the altitude and climb rate estimated by either the complementary filter (based on Ardupilot code) or the INS algorithm and attempts to hold the desired altitude. See the <a href="http://forum-test.taulabs.org/viewtopic.php?f=17&t=27">forums</a> for more discussion of this.
+
+  <h2>PH and Loiter mode</h2>
+      <iframe src="//player.vimeo.com/video/83416006" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <br/>
+      Loiter allows you to move your position while in position hold mode. It is slower reacting than normal flight modes, but great if you just want to move around while getting that perfect shot. <a href="http://buildandcrash.blogspot.com/2014/01/loiter-mode-and-more-rth-testing.html">See blog writeup</a>
+
+  <h2>RTH</h2>
       <iframe src="//player.vimeo.com/video/84639710" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  <li>Advanced path following and shaping</li>
+      <br/>
+      RTH uses a flight sequence to try and keep you out of trouble. It rises up to a minimum height of 15m above your home location, and then will wait for 10 seconds in case you change your mind. Then it will fly directly towards the home location and hover over that for 10 seconds. Finally it will enter into a descent phase at 1 m/s for landing.
+
+  <h2>Advanced path following and shaping</h2>
       <iframe src="//player.vimeo.com/video/85122181" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  <li>Native support for MinimOSD</li>
-  <li>Desktop Ground Control Station</li>
-      Download from <a href="https://github.com/TauLabs/TauLabs/releases">Github</a>
-  <li>Android Ground Control Station</li>
+  <h2>Native support for MinimOSD</h2>
+      If you already have a MinimOSD then you can directly send MavLINK from your Tau Labs compatible board and have a OSD in no time. Most boards even support having both the GPS and OSD on a single port to save serial ports. See the <a href="https://github.com/TauLabs/TauLabs/wiki/User-Guide:-Run-an-MinimOSD-with-Taulabs">wiki page</a> describing this.
+
+  <h2>Desktop Ground Control Station</h2>
+      The desktop GCS is written using Qt to be cross platform compatible for Mac, Windows, and Linux (including being compiled for the Raspberry PI). It makes it easy to configure your UAV, modify settings, or monitor performance in flight. Download from <a href="https://github.com/TauLabs/TauLabs/releases">Github</a>
+
+  <h2>Android Ground Control Station</h2>
+      <img src="/img/android-img.png" width=250/>
+      <br/>
       Available on the <a href="https://play.google.com/store/apps/details?id=org.taulabs.androidgcs">Google Play Store</a>
+      <br/>
       Monitor your UAV at the field or update settings
- </ul>
 </section>
