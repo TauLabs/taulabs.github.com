@@ -236,3 +236,8 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         left: 150px;
     }
 }
+
+.footer {
+  font-size: 0.75em;
+  text-align: center;
+}
