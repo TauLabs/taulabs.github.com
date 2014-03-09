@@ -14,16 +14,17 @@ Tau Labs is an Open Source project aimed to create high quality code for control
 
 <h1> Updates </h1>
 
+<h3>
 <ul class="entries">
   {% for post in site.posts %}
- 
   <li>
     <a href="{{ post.url }}">
       <!--img src="{{ post.image }}" /-->
-      <h3>{{ post.date | date: "%-d %B %Y"}}: {{ post.title }}</h3>
+      {{ post.date | date: "%-d %B %Y"}}: {{ post.title }}
     </a>
   </li>
- 
   {% endfor %}
+</ul>
+</h3>
 </section>
 
