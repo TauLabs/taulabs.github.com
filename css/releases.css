@@ -1,0 +1,56 @@
+#latest-release a {
+	text-decoration: none;
+}
+
+#latest-release h2 a,
+a#toggle-rel-notes {
+	color: blue;
+}
+
+#latest-release pre {
+	font-family: sans-serif;
+}
+
+span.rel-testing {
+	font-size: 0.8em;
+	color: white;
+	background-color: orange;
+	border-radius: 5px;
+	padding: 3px;
+	margin-left: 5px;
+}
+
+span.rel-stable {
+	font-size: 0.8em;
+	color: white;
+	background-color: green;
+	border-radius: 5px;
+	padding: 3px;
+	margin-left: 5px;
+}
+
+ul.rel-assets {
+	list-style-type: none;
+}
+
+ul.rel-assets li {
+	display: inline;
+}
+
+ul.rel-assets li a {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 2px;
+	text-decoration: none;
+	color: white;
+}
+
+ul.rel-assets li a:link,
+ul.rel-assets li a:visited {
+	background-color: #777;
+}
+
+ul.rel-assets li a:active,
+ul.rel-assets li a:hover {
+	background-color: #1f8dd6;
+}
