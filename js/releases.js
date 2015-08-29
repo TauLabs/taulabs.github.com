@@ -38,11 +38,8 @@ function fillReleaseInfo(json) {
 	html += "</h3>";
 	// release notes
 	html += "<a href=\"#\" id=\"toggle-rel-notes\">Show Full Release Notes</a>";
-	html += "<div style=\"display: none\" id=\"rel-notes-full\">";
+	html += "<div style=\"overflow: hidden\" id=\"rel-notes\">";
 	html += micromarkdown.parse(json.body, true);
-	html += "</div>";
-	html += "<div id=\"rel-notes-short\">";
-	html += micromarkdown.parse(json.body.substring(0, 200) + "...", true);
 	html += "</div>";
 	// download assets
 	// first sort them into alphabetical order
@@ -59,18 +56,17 @@ function fillReleaseInfo(json) {
 
 	$("#latest-release").html(html);
 
+	var relNotesHeightCompact = 150;
+	var relNotesHeightFull = $('#rel-notes').height();
+	$('#rel-notes').height(relNotesHeightCompact);
+
 	$("#toggle-rel-notes").click(function() {
-		$("#rel-notes-short").toggle();
-		$("#rel-notes-full").toggle({
-			complete: function() {
-				if($("#rel-notes-full").is(":hidden")) {
-					$("#toggle-rel-notes").html("Show Full Release Notes");
-				}
-				else {
-					$("#toggle-rel-notes").html("Hide Full Release Notes");
-				}
-			}
-		});
+		if($('#rel-notes').height() == relNotesHeightCompact) {
+			$("#rel-notes").animate({height: relNotesHeightFull}, 200);
+		}
+		else {
+			$("#rel-notes").animate({height: relNotesHeightCompact}, 200);
+		}
 	});
 }
 
