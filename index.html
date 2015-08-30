@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<script src="./js/releases.js"></script>
+<script src="./js/micromarkdown.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/releases.css">
 
 <section role="banner">
   <img src="img/banner.png" />
@@ -14,6 +17,9 @@ Tau Labs is an Open Source project aimed to create high quality code for control
 
 <h1> Updates </h1>
 
+<div id="latest-release"></div>
+
+<h2>News</h2>
 <h3>
 <ul class="entries">
   {% for post in site.posts %}
