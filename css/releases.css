@@ -1,3 +1,13 @@
+/**
+ ******************************************************************************
+ * Tau Labs Website
+ *
+ * @file       releases.css
+ * @author     Tau Labs, http://taulabs.org, Copyright (C) 2015
+ * @brief      Release Block Styles
+ * 
+ *****************************************************************************/
+
 #latest-release a {
 	text-decoration: none;
 }

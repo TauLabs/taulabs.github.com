@@ -35,7 +35,7 @@ function fillReleaseInfo(json) {
 	else {
 		html += "<span class=\"rel-stable\">Stable</span>";
 	}
-	html += "</h3>";
+	html += "</h2>";
 	// release notes
 	html += "<a href=\"#\" id=\"toggle-rel-notes\">Show Full Release Notes</a>";
 	html += "<div style=\"overflow: hidden\" id=\"rel-notes\">";
@@ -58,16 +58,23 @@ function fillReleaseInfo(json) {
 
 	var relNotesHeightCompact = 150;
 	var relNotesHeightFull = $('#rel-notes').height();
-	$('#rel-notes').height(relNotesHeightCompact);
+	// only show the compact version of release notes if they exceed the
+	// compact length
+	if(relNotesHeightCompact >= relNotesHeightFull) {
+		$("#toggle-rel-notes").hide();
+	}
+	else {
+		$('#rel-notes').height(relNotesHeightCompact);
 
-	$("#toggle-rel-notes").click(function() {
-		if($('#rel-notes').height() == relNotesHeightCompact) {
-			$("#rel-notes").animate({height: relNotesHeightFull}, 200);
-		}
-		else {
-			$("#rel-notes").animate({height: relNotesHeightCompact}, 200);
-		}
-	});
+		$("#toggle-rel-notes").click(function() {
+			if($('#rel-notes').height() == relNotesHeightCompact) {
+				$("#rel-notes").animate({height: relNotesHeightFull}, 200);
+			}
+			else {
+				$("#rel-notes").animate({height: relNotesHeightCompact}, 200);
+			}
+		});
+	}
 }
 
 $(document).ready(function() {
